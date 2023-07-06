@@ -26,8 +26,7 @@ import time
 
 #OpenAI setup
 os.environ['OPENAI_API_KEY'] = apikey
-# openai_key ="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"
-openai.api_key = openai_key
+# openai.api_key = openai_key
 
 model_list = {
     'davinci':'text-davinci-003',
