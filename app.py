@@ -25,7 +25,7 @@ import time
 # import tiktoken
 
 #OpenAI setup
-os.environ['OPENAI_API_KEY'] = apikey
+# os.environ['OPENAI_API_KEY'] = apikey
 # openai.api_key = openai_key
 
 model_list = {
