@@ -1,6 +1,6 @@
 #Libraries
 import os
-from apikey import apikey
+# from apikey import apikey
 import streamlit as st
 from langchain.llms import OpenAI
 st.set_page_config(layout="wide")
