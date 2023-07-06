@@ -37,7 +37,7 @@ model_list = {
 
 openai_llm = OpenAI(
     model_name = model_list['davinci'],
-    openai_api_key = openai_key,
+    openai_api_key = st.secrets["openai_key"],
     temperature = 0
 )
 
